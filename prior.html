@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-size: 20px;
+        }
+        h1{
+            font-size: 50px;
+            color: red;
+            /* it is converted to 50px bcz type selector has more points than universal */
+        }
+
+        .heading{
+            font-size: 100px;
+            color: yellowgreen;
+            /* color also changed */
+            /* now its converted to 100px as class>type */
+        }
+
+        #masai{
+            font: size 10px;
+            color: thistle;
+            /* id>class>tags */
+        }
+    </style>
+
+
+
+</head>
+<body>
+   <h1 style="font-size: 200px;color: orange;" id="masai" class="heading">masai school</h1> 
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- PRIORITIES- SICTU -->
+<!-- S-STYLE/INLINE-STYLE-1000 point -->
+<!-- I-ID-100 points -->
+<!-- C-CLASS-10 points -->
+<!-- T-TYPE-1 points-->
+<!-- U-UNIVERSAL-0 points-->
+<!-- ORDER CAN BE ANYTHING , IT CHECKS ONLY PRIORITY -->
